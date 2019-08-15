@@ -1,0 +1,6 @@
+com\portalapp\api\model\UserModel.class
+com\portalapp\api\ApiApplication.class
+com\portalapp\api\service\UserServiceImpl.class
+com\portalapp\api\controller\UserController.class
+com\portalapp\api\repository\UserRepository.class
+com\portalapp\api\service\UserService.class
