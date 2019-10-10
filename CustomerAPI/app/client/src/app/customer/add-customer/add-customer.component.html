@@ -1,0 +1,17 @@
+<div class="mat-elevation-z8">
+  <form (ngSubmit)="OnSubmit()" fxLayout="column" fxLayoutAlign="center center">
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="First Name" required [(ngModel)]="customer.firstName" name="firstName">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Last Name" required [(ngModel)]="customer.lastName" name="lastName">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput placeholder="Email ID" required [(ngModel)]="customer.emailId" name="emailId">
+    </mat-form-field>
+
+    <button mat-raised-button type="submit">Submit</button>
+  </form>
+</div>
